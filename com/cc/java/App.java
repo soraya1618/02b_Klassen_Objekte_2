@@ -13,11 +13,17 @@ public class App {
         output("Blick von aussen: " + cat);
         output("Blick von innen: " + cat.getInstanceVariable());
 
+        output(cat.name);
+        output(cat.furColor);
+        // Explizite Typumwandlung
+        output(Integer.toString(cat.age));
+
+
         System.out.println("----------------------------");
 
-        Cat cat2 = new Cat();
-        output("Blick von aussen: " + cat2);
-        output("Blick von innen: " + cat2.getInstanceVariable());
+        // Cat cat2 = new Cat();
+        // output("Blick von aussen: " + cat2);
+        // output("Blick von innen: " + cat2.getInstanceVariable());
 
     }
 
