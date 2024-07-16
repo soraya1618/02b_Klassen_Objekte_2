@@ -14,6 +14,12 @@ public class App {
         output(cat.furColor);
         output(Integer.toString(cat.age)); 
 
+        cat.furColor = "grey";
+        output(cat.furColor);
+
+       
+
+
         System.out.println("----------------------------");
 
         Cat cat2 = new Cat("Alonzo", "grey", 35);
@@ -25,7 +31,7 @@ public class App {
         output(cat2.furColor);
         output(Integer.toString(cat2.age)); 
 
-       
+        output(cat.furColor);
 
     }
 
